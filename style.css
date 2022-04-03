@@ -1,3 +1,55 @@
-body {
-    background: blue;
-  }
+.top-nav {
+  width:100%;
+  margin-top:0;
+  background-color: #082032
+
+
+
+}
+
+.top-nav-header {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.6
+  text-decoration: none;
+}
+
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.in-line {
+  display: inline-block;
+  width: 60%;
+
+}
+
+.lean-right {
+  display: inline-block;
+  float: right;
+
+
+}
+
+.top-nav-links {
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.fixed-position {
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: 0;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
